@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sellall",
+  "version": "${version}",
+  "name": "Sell All",
+  "description": "Adds a button in the /sell menu that moves your whole inventory into the sell menu.",
+  "authors": ["Onxon"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.onxon.sellall.SellAllClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
